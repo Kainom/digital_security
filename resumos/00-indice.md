@@ -14,6 +14,8 @@ Conteúdo da prova: **CIA**, **Hashing**, **Cifra de César**, **Princípios da 
 
 O "§" indica a seção do livro (ex.: [STA] §2.2 = Stallings, seção 2.2).
 
+> Ficha completa de cada fonte (autores, edição, editora, ano, ISBN e capítulos usados): [[references|study-content/references]].
+
 ## Resumos
 1. [[01-triade-cia|Tríade CIA]]
 2. [[02-hashing|Hashing]]
