@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "cba935fff4fd308c",
+    "type": "split",
+    "children": [
+      {
+        "id": "25cc7d2dae632df1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59f7705f175d2ca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resumos/01-triade-cia.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-triade-cia"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1cf16ced2346ee2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "68c98c2847e461fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2504a6c6cf4e7cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0f1249b74660d01b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "53e2b17c068ba5fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b83fc734c022c796",
+    "type": "split",
+    "children": [
+      {
+        "id": "98d1f57ec170cb4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1923360492b17f22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "resumos/01-triade-cia.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3c37a5c9f1387e1a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "resumos/01-triade-cia.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e72412be1630f2dc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6be869a247a3a508",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "354701f408c4970e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "resumos/01-triade-cia.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "59f7705f175d2ca0",
+  "lastOpenFiles": [
+    "resumos/02-hashing.md",
+    "CLAUDE.md",
+    "resumos/01-triade-cia.md",
+    "exams/simulado-01.md",
+    "exams/simulado-01.md.tmp.116244.68b9185bd9bb",
+    "quests/certificados-digitais.md",
+    "quests/certificados-digitais.md.tmp.116244.b22ebeb20e85",
+    "quests/autenticidade-e-nao-repudio.md",
+    "quests/autenticidade-e-nao-repudio.md.tmp.116244.bfb00fc1ea12",
+    "quests/identificacao-autenticacao-autorizacao.md",
+    "quests/identificacao-autenticacao-autorizacao.md.tmp.116244.8a6d396707b3",
+    "quests/principios-da-criptografia.md",
+    "quests/principios-da-criptografia.md.tmp.116244.98838740a2a2",
+    "quests/cifra-de-cesar.md",
+    "quests/cifra-de-cesar.md.tmp.116244.f005b047e73b",
+    "quests/hashing.md",
+    "quests/hashing.md.tmp.116244.da6d766e209e",
+    "resumos/00-indice.md",
+    "quests/triade-cia.md",
+    "quests/triade-cia.md.tmp.116244.b21a7b82cfee",
+    "mapas-mentais/mapas-mentais.md",
+    "flashcards/flashcards.md",
+    "flashcards/flashcards.md.tmp.116244.b82ad8aad306",
+    "flashcards",
+    "resumos/07-certificados-digitais.md",
+    "resumos/06-autenticidade-e-nao-repudio.md",
+    "resumos/05-identificacao-autenticacao-autorizacao.md",
+    "resumos/04-principios-da-criptografia.md",
+    "resumos/03-cifra-de-cesar.md",
+    "study-content/exercise/atividade-03.md",
+    "study-content/exercise/atividade-01.md",
+    "CLAUDE.MD"
+  ]
+}
