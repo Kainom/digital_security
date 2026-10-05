@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper]{article}
+
+% ---------- Pacotes ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+
+\onehalfspacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+% ---------- Cores ----------
+\definecolor{azul}{HTML}{1F3A5F}
+\definecolor{azulclaro}{HTML}{EAF0F8}
+\definecolor{cinza}{HTML}{555555}
+
+% ---------- Títulos de seção ----------
+\titleformat{\section}
+  {\Large\bfseries\color{azul}}
+  {\thesection.}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.8em}{0.8em}
+
+% ---------- Cabeçalho e rodapé ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\lhead{\small\color{cinza} Segurança Digital}
+\rhead{\small\color{cinza} Atividade --- Bug Bounty e Divulgação de Vulnerabilidades}
+\cfoot{\small\color{cinza} \thepage}
+
+% ---------- Perguntas e respostas ----------
+% Numeração das perguntas: <seção>.<pergunta>
+\newcounter{pergunta}[section]
+\renewcommand{\thepergunta}{\thesection.\arabic{pergunta}}
+
+% \pergunta{texto}{resposta}  (resposta pode ficar vazia)
+\newcommand{\pergunta}[2]{%
+  \refstepcounter{pergunta}%
+  \noindent\textbf{\color{azul}\thepergunta}\hspace{0.5em}\textbf{#1}\par
+  \noindent\textbf{Resposta:} #2\par
+}
+
+% ---------- Documento ----------
+\begin{document}
+
+% ----- Cabeçalho do trabalho -----
+\begin{center}
+  {\LARGE\bfseries\color{azul} Atividade: Bug Bounty, Divulgação\\[2pt] Responsável e Classificação de Vulnerabilidades}\\[1.2em]
+  {\large Segurança Digital --- Engenharia de Software}
+\end{center}
+
+\vspace{1em}
+
+% ======================================================
+\section{O que é Bug Bounty?}
+
+\pergunta{O que significa Bug Bounty?}{}
+
+\pergunta{Por que empresas pagam pessoas para encontrar vulnerabilidades?}{}
+
+\pergunta{O que é uma vulnerabilidade de segurança?}{}
+
+\pergunta{Qual é a diferença entre encontrar uma falha com autorização e explorar uma falha sem autorização?}{}
+
+\pergunta{Cite duas empresas que possuem programas de Bug Bounty.}{}
+
+\pergunta{O que uma pessoa precisa fazer para participar de um programa desses?}{}
+
+% ======================================================
+\section{Meta Bug Bounty --- como funciona na prática?}
+
+\pergunta{O que é o programa?}{}
+
+\pergunta{Que tipos de vulnerabilidades podem ser reportadas?}{}
+
+\pergunta{Como uma vulnerabilidade deve ser comunicada à empresa?}{}
+
+\pergunta{O que pode acontecer quando um pesquisador encontra uma falha válida?}{}
+
+\pergunta{Por que a empresa oferece recompensas financeiras?}{}
+
+\pergunta{Encontre um exemplo público de vulnerabilidade reportada à Meta.}{}
+
+% ======================================================
+\section{Discord e reconhecimento de pesquisadores}
+
+\pergunta{O Discord possui programa de Bug Bounty?}{}
+
+\pergunta{Como pesquisadores podem reportar vulnerabilidades?}{}
+
+\pergunta{Existem formas de reconhecimento além de dinheiro?}{}
+
+\pergunta{O que são badges ou outras formas de reconhecimento para pesquisadores?}{}
+
+\pergunta{Por que uma empresa pode querer criar uma comunidade de pesquisadores de segurança?}{}
+
+% ======================================================
+\section{O que é Responsible Disclosure?}
+
+\pergunta{O que significa Responsible Disclosure?}{}
+
+\pergunta{Por que o pesquisador deve comunicar a empresa antes de divulgar publicamente uma vulnerabilidade?}{}
+
+\pergunta{O que pode acontecer se uma vulnerabilidade for divulgada antes que exista uma correção?}{}
+
+\pergunta{Qual é a diferença entre Responsible Disclosure e simplesmente publicar uma vulnerabilidade na internet?}{}
+
+% ======================================================
+\section{CVE: o ``RG'' das vulnerabilidades}
+
+\pergunta{O que significa CVE?}{}
+
+\pergunta{Para que serve um identificador como CVE-2024-XXXX?}{}
+
+\pergunta{Quem mantém o sistema CVE?}{}
+
+\pergunta{Encontre uma CVE real e explique, em linguagem simples, qual era a vulnerabilidade.}{}
+
+\pergunta{A vulnerabilidade encontrada recebeu alguma classificação de severidade?}{}
+
+% ======================================================
+\section{CVSS --- uma vulnerabilidade pode ser mais ou menos grave?}
+
+\pergunta{Para que serve o CVSS?}{}
+
+\pergunta{O que significa uma pontuação de 0 a 10?}{}
+
+\pergunta{O que diferencia uma vulnerabilidade de baixa, média, alta ou crítica severidade?}{}
+
+\end{document}
